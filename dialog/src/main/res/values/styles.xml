@@ -1,0 +1,54 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:paddingTop">25dp</item>
+        <item name="android:paddingBottom">25dp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+    
+    <style name="MyDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+
+        <!--说明提示框是否有标题-->
+        <!--<item name="windowNoTitle">true</item>-->
+
+        <!--提示框的背景颜色是什么-->
+        <item name="android:windowBackground">@android:color/transparent</item>
+
+        <!--是否浮现在activity之上 默认为true-->
+        <!--<item name="android:windowIsFloating">true</item>-->
+
+        <!--说明提示框是否有边框-->
+        <!--<item name="android:windowFrame">@null</item>-->
+
+        <!--说明提示框是否是浮动的-->
+        <item name="android:windowIsTranslucent">false</item>
+
+        <!--明是否充许对话框的背景变暗-->
+        <item name="android:backgroundDimEnabled">true</item>
+        <!--黑暗程度-->
+        <item name="android:backgroundDimAmount">0.7</item>
+
+    </style>
+
+    <style name="loading_dialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+
+</resources>

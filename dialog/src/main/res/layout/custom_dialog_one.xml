@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="#607D8B">
+
+        <ImageView
+            android:src="@drawable/dialog_success"
+            android:layout_marginTop="30dp"
+            android:id="@+id/iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textColor="#ffffff"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:textSize="30sp"
+            android:gravity="center"
+            android:text="您已经成功预订冲田杏梨,稍后为您运送\n不要激动哦！"
+            android:textAllCaps="false"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/okButton"
+        android:background="@drawable/button_selector"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textColor="#ffffff"
+        android:textSize="35sp"
+        android:text="确定"
+        android:textAllCaps="false"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

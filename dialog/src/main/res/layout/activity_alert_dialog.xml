@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_alert_dialog"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.itchunyang.dialog.AlertDialogActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:layout_marginTop="30dp"
+        style="@style/ButtonStyle"
+        android:text="一般对话框"
+        android:onClick="defaultDialog"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        style="@style/ButtonStyle"
+        android:text="单选对话框"
+        android:onClick="singleChoiceDialog"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        style="@style/ButtonStyle"
+        android:text="多选对话框"
+        android:onClick="multipleChoiceDialog"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        style="@style/ButtonStyle"
+        android:text="列表对话框"
+        android:onClick="listDialog"/>
+
+    <Button
+        android:layout_marginTop="30dp"
+        android:onClick="theme1"
+        style="@style/ButtonStyle"
+        android:text="主题1" />
+
+</LinearLayout>
