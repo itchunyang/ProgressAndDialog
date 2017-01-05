@@ -12,13 +12,31 @@
     android:orientation="vertical">
 
     <Button
-        android:onClick="customDialog"
+        android:onClick="test"
         style="@style/ButtonStyle"
-        android:text="AlertDialog" />
+        android:text="test" />
 
     <Button
         android:onClick="loading"
         style="@style/ButtonStyle"
         android:text="loading" />
+
+    <Button
+        android:onClick="materialDialog"
+        style="@style/ButtonStyle"
+        android:text="MaterialDialog" />
+
+    <Button
+        android:onClick="dialogGravity"
+        style="@style/ButtonStyle"
+        android:text="DialogGravity" />
+
+    <Button
+        android:onClick="dialogAnimation"
+        style="@style/ButtonStyle"
+        android:text="Dialog动画" />
+
+
+
 
 </LinearLayout>

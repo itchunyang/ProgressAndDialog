@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         progressBar = (ProgressBar) findViewById(R.id.progressBar);
         progressBar1 = (ProgressBar) findViewById(R.id.progressBar1);
         progressBar2 = (ProgressBar) findViewById(R.id.progressBar2);
+
     }
 
     public void start(View view) {
